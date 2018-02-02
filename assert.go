@@ -13,6 +13,8 @@ func NotNil(t TestingT, object interface{}) {
 	failureMessage := "Nil"
 
 	fail(t, object, "Not Nil", failureMessage)
+	
+
 }
 
 func Nil(t TestingT, object interface{}) {
